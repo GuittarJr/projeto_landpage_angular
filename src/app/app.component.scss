@@ -1,0 +1,11 @@
+main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    .panel_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+    }
+}

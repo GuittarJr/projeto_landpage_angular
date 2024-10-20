@@ -1,0 +1,31 @@
+@import '../../../styles.scss';
+nav{
+
+    display: flex;
+    justify-content: flex-end;
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        width: max-content;
+    
+        a{
+            padding: 5px;
+            background-color: rgba(128, 128, 128, 0.642) ;
+            text-decoration: none;
+            border: 1px solid white;
+            color: white;
+            font-family: $main_text;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size:small;
+        }
+
+        a:hover{
+            background-color: white;
+            color: gray;
+            transition: 0.2s;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import '../../../styles.scss';
+
+header{
+
+    background: url(../../../assets/img/bg-3.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+    .text_wrapper{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+
+        h1{
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-shadow: 1px 1px 5px rgba(27, 26, 26, 0.725);
+            font-size: 38px;
+            color: white;
+        }
+        p{
+            font-size: 12px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 8px;
+            border-bottom: 2px solid white;
+        }
+    }
+}
